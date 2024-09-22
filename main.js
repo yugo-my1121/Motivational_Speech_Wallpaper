@@ -28,7 +28,7 @@ function motivationalSpeechWallpaper(wallpaper,htmlObj){
 
   container.innerHTML =
       `
-          <div style="background-image: url('${wallpaper.imgUrl}');" class="backgroundImg d-flex justify-content-${x_position[wallpaper.xPosition]} align-items-${y_position[wallpaper.yPosition]} my-3">
+          <div style="background-image: url('${wallpaper.imgUrl}'); height: 50vh;"   class="backgroundImg d-flex justify-content-${x_position[wallpaper.xPosition]} align-items-${y_position[wallpaper.yPosition]} my-3">
               <div class="col-8" style="color: #${wallpaper.color}">
                   <h3>${wallpaper.text}</h3>
               </div>
